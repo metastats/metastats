@@ -13,3 +13,6 @@
     cake build
     git commit -am 'My build'
     
+## Web server
+    ruby -run -e httpd . -p 9090
+    python -m SimpleHTTPServer 8080

@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Hermit';
+  src: url('Hermit-medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Hermit", Verdana;
+  font-size: 0.95em;
+}
+
+html, body {
+  width: 900px;
+  margin: auto;
+}
+
+th, td {
+  font-weight: 100;
+  padding: 2px;
+  vertical-align: top;
+}
+
+th  {
+  text-align: right;
+
+}
+
+span {
+  color: #000000;
+}
+  
+#top {
+  padding: 5px;
+}
+
+#top h1 {
+  font-size: 1.5em;
+}
+
+#menu p {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  cursor: pointer;
+}
+
+#description {
+  display: none;
+  padding: 10px;
+}
+
+#options {
+  background-color: #000000;
+}
+
+#legend table {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#legend h3 {
+  border-bottom: 1px solid #000000;
+}
+
+#options button {
+  margin: 5px;
+}
+
+#container {
+  margin: auto;
+  display: none;
+}
+
+#left-container {
+  float: left;
+  border: 2px solid #000000;
+  width: 186px;
+  padding: 5px;
+}
+
+#center-container {
+  float: left;
+  border: 2px solid #000000;
+  width: 696px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+#infovis {
+  position: relative;
+  width: 696px;
+  height: 550px;
+}
+
+#button {
+  padding: 10px;
+  text-align: center;
+}
+
+.query-color {
+  border:1px solid #999999;
+  float:left;
+  height:10px;
+  margin: 3px 3px 0 0;
+  width:10px;
+}
